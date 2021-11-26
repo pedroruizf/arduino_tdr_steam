@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Reto 07 Secuencia de leds con pulsador (condicionales y monitor serie) | Arduino+TDR-Steam </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Pedro Ruiz Fernández" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-15"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Arduino+TDR-Steam</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Sistemas de control automáticos programados con Arduino + TDR-Steam</a></li>
+   <li><a href="elementos_y_tipos.html" class="no-ch">Elementos y tipos</a></li>
+   <li><a href="elemento_de_control.html" class="no-ch">Elemento de control</a></li>
+   <li><a href="ide_de_arduino.html" class="no-ch">IDE de Arduino</a></li>
+   <li><a href="salidas_digitales_y_bucles.html" class="daddy">Salidas digitales y bucles</a>
+   <ul class="other-section">
+      <li><a href="reto_01_led_parpadeante_mi_primer_programa.html" class="no-ch">Reto 01 Led parpadeante (mi primer programa)</a></li>
+      <li><a href="reto_02_dos_leds_parpadeantes_variables.html" class="no-ch">Reto 02 Dos Leds parpadeantes (variables)</a></li>
+      <li><a href="reto_03_secuencia_de_leds_bucle_for.html" class="no-ch">Reto 03 Secuencia de leds (bucle for)</a></li>
+      <li><a href="reto_04_secuencia_de_leds_bucle_while_y_funciones.html" class="no-ch">Reto 04 Secuencia de leds (bucle while y funciones)</a></li>
+      <li><a href="reto_05_sos_con_zumbador.html" class="no-ch">Reto 05 SOS con zumbador</a></li>
+      <li><a href="reto_06_meloda_con_piezo_elctrico.html" class="no-ch">Reto 06 Melodía con Piezo eléctrico</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="entradas_digitales_condicionales_y_monitor_serie.html" class="current-page-parent daddy">Entradas digitales, condicionales y monitor serie</a>
+   <ul>
+      <li id="active"><a href="reto_07_secuencia_de_leds_con_pulsador_condicionales_y_monitor_serie.html" class="active no-ch">Reto 07 Secuencia de leds con pulsador (condicionales y monitor serie)</a></li>
+      <li><a href="reto_08_encendido_y_apagado_de_led_con_dos_pulsadores.html" class="no-ch">Reto 08 Encendido y apagado de led con dos pulsadores</a></li>
+      <li><a href="retos_09_ab_encendido_y_apagado_de_led_con_operadores_lgicos.html" class="no-ch">Retos 09 (a,b) Encendido y apagado de led con operadores lógicos</a></li>
+   </ul>
+   </li>
+   <li><a href="salidas_pwm_analgicas.html" class="daddy">Salidas PWM (analógicas)</a>
+   <ul class="other-section">
+      <li><a href="reto_10_intensidad_de_led_rgb.html" class="no-ch">Reto 10 Intensidad de led RGB</a></li>
+      <li><a href="reto_11_intensidad_de_led_rgb_con_pulsador.html" class="no-ch">Reto 11 Intensidad de led RGB con pulsador</a></li>
+      <li><a href="reto_12_color_aleatorio_con_led_rgb.html" class="no-ch">Reto 12 Color Aleatorio con Led RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="entradas_analgicas.html" class="daddy">Entradas analógicas</a>
+   <ul class="other-section">
+      <li><a href="reto_13_interruptor_crepuscular_por_umbral.html" class="no-ch">Reto 13 Interruptor crepuscular por umbral</a></li>
+      <li><a href="reto_14_interruptor_crepuscular_progresivo.html" class="no-ch">Reto 14 Interruptor crepuscular progresivo</a></li>
+      <li><a href="reto_15_control_de_leds_con_potencimetro.html" class="no-ch">Reto 15 Control de leds con potenciómetro</a></li>
+      <li><a href="reto_16_potencimetro_y_rgb.html" class="no-ch">Reto 16 Potenciómetro y RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="libreras_lcd_lm35_y_dht11.html" class="daddy">Librerías. LCD, LM35 y DHT11</a>
+   <ul class="other-section">
+      <li><a href="reto_17_control_de_turno_pulsadores_y_lcd.html" class="no-ch">Reto 17 Control de turno (pulsadores y LCD)</a></li>
+      <li><a href="reto_18_temperatura_con_lm35.html" class="no-ch">Reto 18 Temperatura con LM35</a></li>
+      <li><a href="reto_19_temperatura_y_humedad_con_dht11.html" class="no-ch">Reto 19 Temperatura y Humedad con DHT11</a></li>
+      <li><a href="reto_20_temperatura_y_rgb.html" class="no-ch">Reto 20 Temperatura y RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="fuentes.html" class="no-ch">Fuentes</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="entradas_digitales_condicionales_y_monitor_serie.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reto_08_encendido_y_apagado_de_led_con_dos_pulsadores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Reto 07 Secuencia de leds con pulsador (condicionales y monitor serie)</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id28">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Condicionales</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta28_168_2" class="block iDevice_content">
+<div class="exe-text"><p>Las estructuras condicionales sirven para tomar decisiones en el hilo de desarrollo de un programa. El programas tomará decisiones en función del cumplimiento o no de condiciones.</p>
+<p>Sus estructuras son :</p>
+<p><span style="text-decoration: underline;">Condicional simple</span></p>
+<p><code><span style="font-size: 10pt;">if (condición) {</span></code></p>
+<p><span style="font-size: 10pt;"><code>    instrucciones;</code></span></p>
+<p><span style="font-size: 10pt;"><code>}</code></span></p>
+<p><span style="text-decoration: underline;">Condicional con dos opciones</span></p>
+<p><code>if (condición) {</code><br /><br /><code>    instrucciones;</code><br /><br /><code>}</code><br /><br /><code>else {</code><br /><br /><code>    instrucciones;</code><br /><br /><code>} </code><br /><br /><span style="text-decoration: underline;">Condicional multi-opciones</span>: en este caso se pueden poner tantos else if como se necesite.</p>
+<p><code>if (condición) {</code></p>
+<p><code>    instrucciones</code></p>
+<p><code>}</code></p>
+<p><code>else if (condición){</code></p>
+<p><code>    instrucciones;</code></p>
+<p><code>} </code></p>
+<p><code>else {</code></p>
+<p><code>    instrucciones;</code></p>
+<p><code>}</code></p>
+<p> Expresiones de comparación para las condiciones:</p>
+<table border="1" style="width: 19.9169%; height: 36px;">
+<tbody>
+<tr style="height: 18px;">
+<td style="width: 5.8465%; height: 18px; text-align: center;">==</td>
+<td style="width: 4.12236%; height: 18px; text-align: center;">!=</td>
+<td style="width: 1.76297%; height: 18px; text-align: center;">&lt;</td>
+<td style="width: 5.75572%; height: 18px; text-align: center;">&lt;=</td>
+<td style="width: 1.21858%; height: 18px; text-align: center;">&gt;</td>
+<td style="width: 1.79211%; height: 18px; text-align: center;">&gt;=</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 5.8465%; height: 18px; text-align: center;">Igual</td>
+<td style="width: 4.12236%; height: 18px; text-align: center;">Distinto</td>
+<td style="width: 1.76297%; height: 18px; text-align: center;">menor</td>
+<td style="width: 5.75572%; height: 18px; text-align: center;">menor o igual</td>
+<td style="width: 1.21858%; height: 18px; text-align: center;">mayor</td>
+<td style="width: 1.79211%; height: 18px; text-align: center;">mayor o igual</td>
+</tr>
+</tbody>
+</table>
+<p>Ejemplo:</p>
+<p><code>if (digitalRead(2) == HIGH) {</code><br /><code>    secuencia();</code><br /><code>}</code></p>
+<p>Para más información consultar el apartado de estructura de la referencia de Arduino: <a href="https://www.arduino.cc/reference/en/#structure">https://www.arduino.cc/reference/en/#structure</a><code></code></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id30">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Tarea</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta30_170_2" class="block iDevice_content">
+<dl class="pbl-task-info"><dt class="pbl-task-duration"><span>Duración:</span></dt><dd class="pbl-task-duration">30</dd><dt class="pbl-task-participants"><span>Agrupamiento:</span></dt><dd class="pbl-task-participants">1</dd></dl><div class="pbl-task-description"><p>El reto consiste en que cuando pulse el pulsador SW1 (entrada digital 2), se encienda la secuencia de leds que hemos usado en ejercicios anteriores. Secuencia de encendidos y pagados de leds, encendiéndose primero el azul (pin 13), permaneciendo encendido durante 200 ms, se apaga permaneciendo apagado 200 ms, después hace la misma secuencia el rojo. Este proceso sólo lo hará el sistema 5 veces. El tiempo de encendido y apagado lo tomaremos de una variable entera. Esta secuencia de leds debe estar en una función.</p>
+<p>Objetivos:</p>
+<ul>
+<li>Expresiones condicionales (if)</li>
+<li>Entradas digitales: analogRead (pin), pinMode (pin,INPUT)</li>
+<li>Repaso de funciones</li>
+</ul>
+<p></p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Mostrar retroalimentación" /></div><div class="feedback js-feedback js-hidden"><p><iframe width="1250" height="703" src="https://www.youtube.com/embed/SxG05lu7kes" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Código:</p>
+<p><img src="reto07.png" alt="código reto 07" width="744" height="1024" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper FileAttachIdeviceInc em_iDevice em_iDevice_assignment" id="id60">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Ficheros adjuntos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta60_82" class="block iDevice_content">
+
+</div>
+<ul class='exeFileList'><li><a href='reto07.ino' target='_blank'>reto07.ino<span> (Ventana nueva)</span></a></li>
+</ul></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="entradas_digitales_condicionales_y_monitor_serie.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reto_08_encendido_y_apagado_de_led_con_dos_pulsadores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

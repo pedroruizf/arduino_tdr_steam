@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Salidas digitales y bucles | Arduino+TDR-Steam </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Pedro Ruiz Fernández" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Arduino+TDR-Steam</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Sistemas de control automáticos programados con Arduino + TDR-Steam</a></li>
+   <li><a href="elementos_y_tipos.html" class="no-ch">Elementos y tipos</a></li>
+   <li><a href="elemento_de_control.html" class="no-ch">Elemento de control</a></li>
+   <li><a href="ide_de_arduino.html" class="no-ch">IDE de Arduino</a></li>
+   <li id="active"><a href="salidas_digitales_y_bucles.html" class="active daddy">Salidas digitales y bucles</a>
+   <ul>
+      <li><a href="reto_01_led_parpadeante_mi_primer_programa.html" class="no-ch">Reto 01 Led parpadeante (mi primer programa)</a></li>
+      <li><a href="reto_02_dos_leds_parpadeantes_variables.html" class="no-ch">Reto 02 Dos Leds parpadeantes (variables)</a></li>
+      <li><a href="reto_03_secuencia_de_leds_bucle_for.html" class="no-ch">Reto 03 Secuencia de leds (bucle for)</a></li>
+      <li><a href="reto_04_secuencia_de_leds_bucle_while_y_funciones.html" class="no-ch">Reto 04 Secuencia de leds (bucle while y funciones)</a></li>
+      <li><a href="reto_05_sos_con_zumbador.html" class="no-ch">Reto 05 SOS con zumbador</a></li>
+      <li><a href="reto_06_meloda_con_piezo_elctrico.html" class="no-ch">Reto 06 Melodía con Piezo eléctrico</a></li>
+   </ul>
+   </li>
+   <li><a href="entradas_digitales_condicionales_y_monitor_serie.html" class="daddy">Entradas digitales, condicionales y monitor serie</a>
+   <ul class="other-section">
+      <li><a href="reto_07_secuencia_de_leds_con_pulsador_condicionales_y_monitor_serie.html" class="no-ch">Reto 07 Secuencia de leds con pulsador (condicionales y monitor serie)</a></li>
+      <li><a href="reto_08_encendido_y_apagado_de_led_con_dos_pulsadores.html" class="no-ch">Reto 08 Encendido y apagado de led con dos pulsadores</a></li>
+      <li><a href="retos_09_ab_encendido_y_apagado_de_led_con_operadores_lgicos.html" class="no-ch">Retos 09 (a,b) Encendido y apagado de led con operadores lógicos</a></li>
+   </ul>
+   </li>
+   <li><a href="salidas_pwm_analgicas.html" class="daddy">Salidas PWM (analógicas)</a>
+   <ul class="other-section">
+      <li><a href="reto_10_intensidad_de_led_rgb.html" class="no-ch">Reto 10 Intensidad de led RGB</a></li>
+      <li><a href="reto_11_intensidad_de_led_rgb_con_pulsador.html" class="no-ch">Reto 11 Intensidad de led RGB con pulsador</a></li>
+      <li><a href="reto_12_color_aleatorio_con_led_rgb.html" class="no-ch">Reto 12 Color Aleatorio con Led RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="entradas_analgicas.html" class="daddy">Entradas analógicas</a>
+   <ul class="other-section">
+      <li><a href="reto_13_interruptor_crepuscular_por_umbral.html" class="no-ch">Reto 13 Interruptor crepuscular por umbral</a></li>
+      <li><a href="reto_14_interruptor_crepuscular_progresivo.html" class="no-ch">Reto 14 Interruptor crepuscular progresivo</a></li>
+      <li><a href="reto_15_control_de_leds_con_potencimetro.html" class="no-ch">Reto 15 Control de leds con potenciómetro</a></li>
+      <li><a href="reto_16_potencimetro_y_rgb.html" class="no-ch">Reto 16 Potenciómetro y RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="libreras_lcd_lm35_y_dht11.html" class="daddy">Librerías. LCD, LM35 y DHT11</a>
+   <ul class="other-section">
+      <li><a href="reto_17_control_de_turno_pulsadores_y_lcd.html" class="no-ch">Reto 17 Control de turno (pulsadores y LCD)</a></li>
+      <li><a href="reto_18_temperatura_con_lm35.html" class="no-ch">Reto 18 Temperatura con LM35</a></li>
+      <li><a href="reto_19_temperatura_y_humedad_con_dht11.html" class="no-ch">Reto 19 Temperatura y Humedad con DHT11</a></li>
+      <li><a href="reto_20_temperatura_y_rgb.html" class="no-ch">Reto 20 Temperatura y RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="fuentes.html" class="no-ch">Fuentes</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="ide_de_arduino.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reto_01_led_parpadeante_mi_primer_programa.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Salidas digitales y bucles</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id8">
+<div class="iDevice emphasis0" >
+<div id="ta8_112_2" class="block iDevice_content">
+<div class="exe-text"><p>Como ya sabemos los pines digitales van numerados del 0 al 13 y sólo puede tomar dos valores (1 o 0, encendido o apagado). Sirven para conectar tanto salidas (actuadores) digitales (diodos led, motores, zumbadores, etc), como entradas (sensores) digitales (interruptores, pulsadores, finales de carrera, etc).</p>
+<p>Estos pines cuando se usan como salidas podemos decirles que estén conectados (valor HIGH o 1) o no (valor LOW o 0),  que tengan corriente (5V) o no (0V). Cuando son de salida dan como máximo 5V y 40 mA.</p>
+<p><img src="arduino_uno_digitales.png" alt="arduino uno pines digitales" width="498" height="353" /></p>
+<p>En el shield TDR-Steam tenemos conectadas las siguientes salidas digitales:<img src="tdr-steam.png" alt="TDR-Steam" style="float: right; margin-right: 2px; margin-left: 2px;" width="523" height="399" /></p>
+<table style="width: 32.2623%; height: 372px;" border="1">
+<tbody>
+<tr style="height: 43px;">
+<td style="width: 4.21997%; text-align: center;"><strong> </strong></td>
+<td style="width: 2.4307%; height: 43px; text-align: center;"><strong>Actuador</strong></td>
+<td style="width: 13.6493%; height: 43px; text-align: center;"><strong>Pin de Conexión</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 4.21997%; text-align: center;">2</td>
+<td style="width: 2.4307%; height: 21px; text-align: center;">Led Azul</td>
+<td style="width: 13.6493%; height: 21px; text-align: center;">D13</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 4.21997%; text-align: center;">2</td>
+<td style="width: 2.4307%; height: 21px; text-align: center;">Led Rojo</td>
+<td style="width: 13.6493%; height: 21px; text-align: center;">D12</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 4.21997%; text-align: center;">3</td>
+<td style="width: 2.4307%; height: 21px; text-align: center;">Led RGB</td>
+<td style="width: 13.6493%; height: 21px; text-align: center;">D6-D9-D10</td>
+</tr>
+<tr style="height: 43px;">
+<td style="width: 4.21997%; text-align: center;">5</td>
+<td style="width: 2.4307%; height: 43px; text-align: center;">Zumbador o Piezo eléctrico</td>
+<td style="width: 13.6493%; height: 43px; text-align: center;">D8</td>
+</tr>
+<tr style="height: 64px;">
+<td style="width: 4.21997%; text-align: center;">6</td>
+<td style="width: 2.4307%; height: 64px; text-align: center;">Dos puertos (entradas/salidas) digitales</td>
+<td style="width: 13.6493%; height: 64px; text-align: center;">D3 y D5</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id9">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Instrucciones</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta9_113_2" class="block iDevice_content">
+<div class="exe-text"><p>Las instrucciones principales relacionadas con las salidas digitales son:</p>
+<ul>
+<li><span style="text-decoration: underline;">pinMode (pin,OUTPUT)</span>: Sirve para configurar un pin digital como de salida (actuador). Ejemplo <code>pinMode (13,OUTPUT)</code>.</li>
+<li><span style="text-decoration: underline;">digitalWrite (pin,HIGH/LOW)</span>: Sirve para dar corriente o no a un pin digital, HIGH da 5V, LOW da 0V. Ejemplo <code>digitalWrite (13,HIGH)</code>.</li>
+<li><span style="text-decoration: underline;">delay (tiempo en ms)</span>: provoca una interrupción por un tiempo en ms del microcontrolador. Ejemplo <code>delay (500)</code>.</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="ide_de_arduino.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reto_01_led_parpadeante_mi_primer_programa.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

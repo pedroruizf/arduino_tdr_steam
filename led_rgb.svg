@@ -1,0 +1,27 @@
+<svg width="76" height="257" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="1" id="imagebot_25">
+   <stop stop-color="#f2f4f6" offset="0"/>
+   <stop stop-color="#c8d6db" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="1" id="imagebot_19">
+   <stop stop-color="#f2f4f6" offset="0"/>
+   <stop stop-color="#c8d6db" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="imagebot_15" fill-rule="evenodd" clip-rule="evenodd" display="inline">
+  <path display="inline" d="M 13.6889 107.723 L 19.5929 107.723 L 19.5929 219.707 L 13.6889 219.707 L 13.6889 107.723 Z" fill="#808080" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_28"/>
+  <path display="inline" d="M 28.0382 107.363 L 33.9062 107.363 L 33.9062 237.023 L 28.0382 237.023 L 28.0382 107.363 Z" fill="#808080" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_27"/>
+  <path display="inline" d="M7.07415,97.4579L7.07415,26.0217L7.07415,25.7335C7.07415,11.5286 20.8505,0 37.8251,0C54.7503,0 68.4283,11.2816 68.6251,25.4453L68.576,97.4579L7.07415,97.4579z" fill="#d1d1d1" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_26"/>
+  <path display="inline" d="M9.54801,95.5062L9.54801,27.1254L9.54801,26.8558C9.54801,13.2426 22.1731,2.19022 37.7235,2.19022C53.2226,2.19022 65.7451,13.0179 65.8991,26.5413L65.8991,95.5062L9.54801,95.5062z" fill="url(#imagebot_25)" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_24"/>
+  <path display="inline" d="M 42.3842 104.723 L 48.2522 104.723 L 48.2522 256.774 L 42.3842 256.774 L 42.3842 104.723 Z" fill="#808080" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_23"/>
+  <path display="inline" d="M 57.0142 106.363 L 62.9182 106.363 L 62.9182 236.865 L 57.0142 236.865 L 57.0142 106.363 Z" fill="#808080" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_22"/>
+  <path display="inline" d="M16.884,83.7L16.884,57.456L26.244,68.904L26.244,83.7L16.884,83.7z" fill="#DB0000" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_21" transform="translate(0 10.1631) matrix(1 0 0 1 -3.4 0)"/>
+  <path display="inline" d="M 25.9349 93.9388 L 25.9349 67.6948 L 35.3309 79.1428 L 35.3309 93.9388 L 25.9309 93.9388 L 25.9349 93.9388 Z" fill="#005C25" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_20"/>
+  <path display="inline" d="M0,94.5631L75.8822,94.5631L75.8822,110.187L0,110.187L0,94.5671L0,94.5631z" fill="url(#imagebot_19)" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_18"/>
+  <path display="inline" d="M49.92,93.8631L49.92,63.2271L25.151,63.2271L36.601,78.2391L45.961,78.2391L45.961,93.8631L49.921,93.8631L49.92,93.8631z" fill="#7f7f7f" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_17"/>
+  <path display="inline" d="M 53.2451 93.8631 L 53.2451 67.6191 L 62.6051 79.0671 L 62.6051 93.8631 L 53.2451 93.8631 Z" fill="#00738F" fill-rule="evenodd" clip-rule="evenodd" id="imagebot_16"/>
+  <title fill-rule="evenodd" clip-rule="evenodd" display="inline"/>
+ </g>
+ <metadata>image/svg+xmlOpenclipartLight Emiting Diodes2007-11-13T21:08:29https://openclipart.org/detail/8283/light-emiting-diodes-by-gerald_g-8283Gerald_Gcomponentdiodeelectronicled</metadata>
+</svg>
