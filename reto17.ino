@@ -1,4 +1,3 @@
-#include <Wire.h> //llama a la librería Wire
 #include "ABlocks_LiquidCrystal_I2C.h" //llama a la librería LiquidCrystal_I2C
 
 int turno = 0;
@@ -10,7 +9,7 @@ LiquidCrystal_I2C lcd_1(0x27, 16, 2); //configura una pantalla LCD llamada lcd_1
 void setup()
 {
   pinMode (SW1, INPUT);
-  pinMode (SW2, OUTPUT);
+  pinMode (SW2, INPUT);
   lcd_1.begin();//inicializa la pantalla
   lcd_1.noCursor();//quita la visualización del cursor
   lcd_1.backlight();//ilumina el fondo de pantalla

@@ -1,4 +1,3 @@
-#include <Wire.h> //llama a la librería Wire
 #include "ABlocks_LiquidCrystal_I2C.h" //llama a la librería LiquidCrystal_I2C
 
 float temperatura;

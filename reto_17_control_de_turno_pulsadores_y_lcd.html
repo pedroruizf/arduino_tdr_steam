@@ -90,7 +90,8 @@
 <li>Repaso de condicionales.</li>
 <li>Repaso de funciones.</li>
 <li>Repaso de entradas digitales.</li>
-</ul></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Mostrar retroalimentación" /></div><div class="feedback js-feedback js-hidden"><p>Código:</p>
+</ul></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Mostrar retroalimentación" /></div><div class="feedback js-feedback js-hidden"><p><iframe width="1250" height="703" src="https://www.youtube.com/embed/-AYPiT6Au-k" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Código:</p>
 <p><code>#include &lt;Wire.h&gt; //llama a la librería Wire</code></p>
 <p><code>#include "ABlocks_LiquidCrystal_I2C.h" //llama a la librería LiquidCrystal_I2C</code></p>
 <p></p>
@@ -103,7 +104,7 @@
 <p><code>void setup()</code></p>
 <p><code>{</code></p>
 <p><code>  pinMode (SW1, INPUT);</code></p>
-<p><code>  pinMode (SW2, OUTPUT);</code></p>
+<p><code>  pinMode (SW2, INPUT);</code></p>
 <p><code>  lcd_1.begin();//inicializa la pantalla</code></p>
 <p><code>  lcd_1.noCursor();//quita la visualización del cursor</code></p>
 <p><code>  lcd_1.backlight();//ilumina el fondo de pantalla</code></p>
