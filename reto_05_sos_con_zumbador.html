@@ -83,7 +83,7 @@
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta23_128_2" class="block iDevice_content">
-<div class="exe-text"><p>Para hacer sonar un piezoeléctrico pasivo (como el de TDR-STeam) la mejor forma es con la orden Tone de Arduino:</p>
+<div class="exe-text"><p>Para hacer sonar un piezoeléctrico pasivo (como el de TDR-STeam) la mejor forma es hacerlo con la orden <em>Tone</em> de Arduino:</p>
 <p><code>tone (pin, frecuencia en Hz);</code></p>
 <p><code>tone (pin, frecuencia en Hz, duracion en ms);</code></p>
 <p>Ejemplo de nota do:</p>
@@ -126,7 +126,7 @@
 <div id="ta22_127_2" class="block iDevice_content">
 <dl class="pbl-task-info"><dt class="pbl-task-duration"><span>Duración:</span></dt><dd class="pbl-task-duration">15</dd><dt class="pbl-task-participants"><span>Agrupamiento:</span></dt><dd class="pbl-task-participants">1</dd></dl><div class="pbl-task-description"><p>Con el piezo eléctrico de nuestra TDR-Steam (pin digital 8) debemos dar una señal sonora de alarma de socorro en código morse (pitidos largos/cortos) especificando una palabra, en nuestro caso SOS. la letra S en morse son tres pitidos de corta duración y la O tres pitidos de larga duración. También se puede hacer con señales luminosas y un led.</p>
 <p>Los pitidos cortos tendrán una duración de 100 ms y los largos 300 ms. Entre letra y letra debe pasar un tiempo de 300 ms y entre SOS (entre palabras) debe haber un tiempo de 1000 ms.</p>
-<p>Nota: Debes usar variables para guardar los tiempos que vas a usar y usar una función por cada letra.</p>
+<p>Nota: Debes usar variables para guardar los tiempos y utilizar una función por cada letra.</p>
 <p>Objetivos:</p>
 <ul>
 <li>Repaso a bucle for.</li>

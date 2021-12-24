@@ -193,7 +193,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="1002"></int>
+                  <int value="1092"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -207,7 +207,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="16_114_2.10"></unicode>
+                <unicode value="16_114_2.14"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -218,7 +218,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="tdr-steam.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="/tmp/tmpZ2mNnU/tdr-steam.png"></string>
+                  <string value="/tmp/tmp2J28wn/tdr-steam.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="968250d4f1c532bb780d56c57e036f89"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -245,7 +245,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="1009"></int>
+                  <int value="1099"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -259,7 +259,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="16_114_2.11"></unicode>
+                <unicode value="16_114_2.15"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="6">
                  <dictionary>
@@ -270,7 +270,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="arduino_uno.1.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="/tmp/tmpZ2mNnU/arduino_uno.1.jpg"></string>
+                  <string value="/tmp/tmp2J28wn/arduino_uno.1.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="576860007f4e42c192b941968787cf27"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -299,7 +299,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="12"></int>
+           <int value="16"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -456,7 +456,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="996"></int>
+                     <int value="1086"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -470,7 +470,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="17_115_2.26"></unicode>
+                   <unicode value="17_115_2.28"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="10">
                     <dictionary>
@@ -481,7 +481,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="elementos_sistema_control.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/elementos_sistema_control.png"></string>
+                     <string value="/tmp/tmp2J28wn/elementos_sistema_control.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="a35193d491712bd5390ee35431dfd0fb"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -510,7 +510,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="27"></int>
+              <int value="29"></int>
               <string role="key" value="parentNode"></string>
               <reference key="9"></reference>
              </dictionary>
@@ -617,10 +617,10 @@
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;strong&gt;Lazo Abierto&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;No hay una realimentación, lo que significa el controlador da una orden de puesta en marcha a los actuadores sin que se vigile en ningún momento la señal de los sensores.&lt;/p&gt;
+&lt;p&gt;No hay una realimentación, lo que significa el controlador da una orden de puesta en marcha a los actuadores sin que se vigile en ningún momento la señal de los sensores (elementos de entrada).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/lazo_abierto_01.png&quot; alt=&quot;esquema lazo abierto&quot; width=&quot;408&quot; height=&quot;164&quot; style=&quot;float: left; margin-right: 2px; margin-left: 2px;&quot; /&gt;&lt;img src=&quot;resources/lazo_abierto_02.png&quot; alt=&quot;conexionado lazo abierto&quot; width=&quot;302&quot; height=&quot;400&quot; style=&quot;margin-right: 2px; margin-left: 2px;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lazo Cerrado&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;hay realimentación, lo que quiere decir que el sistema de control siempre está vigilando los sensores para realizar en función del estado de los mismos una acción u otra.&lt;/p&gt;
+&lt;p&gt;hay realimentación, lo que quiere decir que el sistema de control siempre está vigilando los sensores (elementos de entrada) para realizar una acción u otra en función del estado de los mismos.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/lazo_cerrado_01.png&quot; alt=&quot;esquema lazo cerrado&quot; width=&quot;440&quot; height=&quot;260&quot; style=&quot;float: left; margin-right: 2px; margin-left: 2px;&quot; /&gt;&lt;img src=&quot;resources/lazo_cerrado_02.png&quot; alt=&quot;conexionado lazo cerrado&quot; width=&quot;370&quot; height=&quot;274&quot; style=&quot;margin-right: 2px; margin-left: 2px;&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
@@ -641,7 +641,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="983"></int>
+                     <int value="1073"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -655,7 +655,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="18_116_2.104"></unicode>
+                   <unicode value="18_116_2.112"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="13">
                     <dictionary>
@@ -666,7 +666,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="lazo_cerrado_02.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/lazo_cerrado_02.png"></string>
+                     <string value="/tmp/tmp2J28wn/lazo_cerrado_02.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="76fabd097e59881de6706bcbf889a1da"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -693,7 +693,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="991"></int>
+                     <int value="1081"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -707,7 +707,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="18_116_2.105"></unicode>
+                   <unicode value="18_116_2.113"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="14">
                     <dictionary>
@@ -718,7 +718,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="lazo_cerrado_01.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/lazo_cerrado_01.png"></string>
+                     <string value="/tmp/tmp2J28wn/lazo_cerrado_01.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="ac5031fc4f5779c081b2395297d264da"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -745,7 +745,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1010"></int>
+                     <int value="1100"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -759,7 +759,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="18_116_2.106"></unicode>
+                   <unicode value="18_116_2.114"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="15">
                     <dictionary>
@@ -770,7 +770,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="lazo_abierto_02.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/lazo_abierto_02.png"></string>
+                     <string value="/tmp/tmp2J28wn/lazo_abierto_02.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="f02c167d5ea40c178226030d3197d55c"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -797,7 +797,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1015"></int>
+                     <int value="1105"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -811,7 +811,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="18_116_2.107"></unicode>
+                   <unicode value="18_116_2.115"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="16">
                     <dictionary>
@@ -822,7 +822,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="lazo_abierto_01.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/lazo_abierto_01.png"></string>
+                     <string value="/tmp/tmp2J28wn/lazo_abierto_01.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="452d1218aed67855c8c4298df86c2bff"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -851,7 +851,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="108"></int>
+              <int value="116"></int>
               <string role="key" value="parentNode"></string>
               <reference key="9"></reference>
              </dictionary>
@@ -1014,7 +1014,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1017"></int>
+                     <int value="1107"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1028,7 +1028,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="6_112_2.30"></unicode>
+                   <unicode value="6_112_2.32"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="20">
                     <dictionary>
@@ -1039,7 +1039,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduino_uno.jpg"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/arduino_uno.jpg"></string>
+                     <string value="/tmp/tmp2J28wn/arduino_uno.jpg"></string>
                      <string role="key" value="checksum"></string>
                      <string value="924f73d51317a48d76109e826ab26654"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1068,7 +1068,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="31"></int>
+              <int value="33"></int>
               <string role="key" value="parentNode"></string>
               <reference key="19"></reference>
              </dictionary>
@@ -1175,10 +1175,10 @@
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Partes:&lt;img src=&quot;resources/partes_arduino.png&quot; alt=&quot;Partes de Arduino&quot; style=&quot;float: right; margin-right: 2px; margin-left: 2px;&quot; width=&quot;415&quot; height=&quot;388&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Pines digitales (0 a 13, 5V 40mA) (6 Salidas PWM 8 bits)&lt;/span&gt;: algo es digital cuando sólo puede tomar dos valores (1 o 0, encendido o apagado, on off). Sirven para conectar tanto salidas (actuadores) digitales (diodos led, motores, zumbadores, etc), como entradas (sensores) digitales (interruptores, pulsadores, finales de carrera, etc). Estos pines cuando se usan como salidas podemos decirles que estén conectados o no, que tengan corriente (5V) o no (0V). Cuando se usan como entrada detectan cuando los elementos de entrada están cerrados o no. Cuando son de salida dan como máximo 5V y 40 mA.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Pines digitales (0 a 13, 5V 40mA) (6 Salidas PWM 8 bits)&lt;/span&gt;: una señal es digital cuando sólo puede tomar dos valores (1 o 0, encendido o apagado, on off, etc). Sirven para conectar tanto salidas (actuadores) digitales (diodos led, motores, zumbadores, etc), como entradas (sensores) digitales (interruptores, pulsadores, finales de carrera, etc). Estos pines cuando se usan como salidas podemos decirles que estén conectados o no, que tengan voltaje (5V) o no (0V). Cuando se usan como entrada detectan cuando los elementos de entrada están cerrados o no. Cuando son de salida dan como máximo 5V y 40 mA.&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Pines de alimentación o zona power&lt;/span&gt;: tenemos los pines gnd (ground tierra), sirven para cerrar el circuito, son el polo negativo de nuestra alimentación. Tenemos un gnd en la fila de los pines digitales y dos gnd más en la zona de alimentación (power). Además tenemos pines de alimentacón de 5V, 3,3V, y Vin. Este último sirve para dar alimentación externa a Arduino.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Entradas analógicas (A0 a A5, 0-5V 10 bits)&lt;/span&gt;: sirven para leer de sensores (emtradas) datos que pueden tomar muchos valores y por tanto no son digitales, como temperaturas (con ntc), luz (con ldr), etc.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Microcontrolador (ATMEGA 328P, 8 bit, 16Mhz, 32KB flash, 1KB EEPROM, 2KB SRAM)&lt;/span&gt;: es el dispositivo que recibe el programa y hace que se ejecute, así como controla todos los elementos de la placa. Sólo tiene almacenado un programa en memoria que se sobreescribe cuando se le sube otro.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Entradas analógicas (A0 a A5, 0-5V 10 bits)&lt;/span&gt;: sirven para leer de sensores (entradas) datos que pueden tomar muchos valores y por tanto no son digitales, como temperaturas (con ntc), luz (con ldr), etc.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Microcontrolador (ATMEGA 328P, 8 bit, 16Mhz, 32KB flash, 1KB EEPROM, 2KB SRAM)&lt;/span&gt;: es el dispositivo dónde se guarda el programa y hace que se ejecute, así como controla todos los elementos de la placa. Sólo tiene almacenado un programa en memoria que se sobreescribe cuando se le sube otro.&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Usb&lt;/span&gt;: es el puertor usb que sirve para dar alimentación a la placa y además comunicarse con el ordenador. A través de él subimos los programas a la placa.&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Alimentación externa&lt;/span&gt;: conector que sirve para alimentar arduino con un elemento externo y que no se alimente por el PC (cargador, pila de 9v, etc). Soporta de 7 a 12V.&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Botón de reset&lt;/span&gt;: cuando se pulsa reinicia el programa que tiene en memoria.&lt;/p&gt;
@@ -1202,7 +1202,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1024"></int>
+                     <int value="1114"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1216,7 +1216,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="7_113_2.31"></unicode>
+                   <unicode value="7_113_2.33"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="23">
                     <dictionary>
@@ -1227,7 +1227,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="partes_arduino.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/partes_arduino.png"></string>
+                     <string value="/tmp/tmp2J28wn/partes_arduino.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="8e090e04f2a4aaa2bef779b439d6a2b3"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1256,7 +1256,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="32"></int>
+              <int value="34"></int>
               <string role="key" value="parentNode"></string>
               <reference key="19"></reference>
              </dictionary>
@@ -1466,7 +1466,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1003"></int>
+                     <int value="1093"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1480,7 +1480,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="1_113_2.30"></unicode>
+                   <unicode value="1_113_2.32"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="26">
                     <dictionary>
@@ -1491,7 +1491,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="tdr-steam.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/tdr-steam.png"></string>
+                     <string value="/tmp/tmp2J28wn/tdr-steam.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="968250d4f1c532bb780d56c57e036f89"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1520,7 +1520,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="31"></int>
+              <int value="33"></int>
               <string role="key" value="parentNode"></string>
               <reference key="19"></reference>
              </dictionary>
@@ -2190,7 +2190,7 @@
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Como ya sabemos los pines digitales van numerados del 0 al 13 y sólo puede tomar dos valores (1 o 0, encendido o apagado). Sirven para conectar tanto salidas (actuadores) digitales (diodos led, motores, zumbadores, etc), como entradas (sensores) digitales (interruptores, pulsadores, finales de carrera, etc).&lt;/p&gt;
-&lt;p&gt;Estos pines cuando se usan como salidas podemos decirles que estén conectados (valor HIGH o 1) o no (valor LOW o 0),  que tengan corriente (5V) o no (0V). Cuando son de salida dan como máximo 5V y 40 mA.&lt;/p&gt;
+&lt;p&gt;Estos pines cuando se usan como salidas podemos decirles que estén conectados (valor HIGH o 1) o no (valor LOW o 0),  que tengan voltaje (5V) o no (0V). Cuando son de salida dan como máximo 5V y 40 mA.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/arduino_uno_digitales.png&quot; alt=&quot;arduino uno pines digitales&quot; width=&quot;498&quot; height=&quot;353&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;En el shield TDR-Steam tenemos conectadas las siguientes salidas digitales:&lt;img src=&quot;resources/tdr-steam.png&quot; alt=&quot;TDR-Steam&quot; style=&quot;float: right; margin-right: 2px; margin-left: 2px;&quot; width=&quot;523&quot; height=&quot;399&quot; /&gt;&lt;/p&gt;
 &lt;table style=&quot;width: 32.2623%; height: 372px;&quot; border=&quot;1&quot;&gt;
@@ -2246,7 +2246,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1000"></int>
+                     <int value="1090"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -2260,7 +2260,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="8_112_2.57"></unicode>
+                   <unicode value="8_112_2.61"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="39">
                     <dictionary>
@@ -2271,7 +2271,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduino_uno_digitales.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/arduino_uno_digitales.png"></string>
+                     <string value="/tmp/tmp2J28wn/arduino_uno_digitales.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="61032a69ddddc7ef3ced0d7ca24f630e"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2298,7 +2298,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1004"></int>
+                     <int value="1094"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -2312,7 +2312,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="8_112_2.58"></unicode>
+                   <unicode value="8_112_2.62"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="40">
                     <dictionary>
@@ -2323,7 +2323,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="tdr-steam.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/tdr-steam.png"></string>
+                     <string value="/tmp/tmp2J28wn/tdr-steam.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="968250d4f1c532bb780d56c57e036f89"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2352,7 +2352,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="59"></int>
+              <int value="63"></int>
               <string role="key" value="parentNode"></string>
               <reference key="38"></reference>
              </dictionary>
@@ -2462,7 +2462,7 @@
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las instrucciones principales relacionadas con las salidas digitales son:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;pinMode (pin,OUTPUT)&lt;/span&gt;: Sirve para configurar un pin digital como de salida (actuador). Ejemplo &lt;code&gt;pinMode (13,OUTPUT)&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;digitalWrite (pin,HIGH/LOW)&lt;/span&gt;: Sirve para dar corriente o no a un pin digital, HIGH da 5V, LOW da 0V. Ejemplo &lt;code&gt;digitalWrite (13,HIGH)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;digitalWrite (pin,HIGH/LOW)&lt;/span&gt;: Sirve para dar voltaje o no a un pin digital, HIGH da 5V, LOW da 0V. Ejemplo &lt;code&gt;digitalWrite (13,HIGH)&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;delay (tiempo en ms)&lt;/span&gt;: provoca una interrupción por un tiempo en ms del microcontrolador. Ejemplo &lt;code&gt;delay (500)&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Para más información consultar el apartado de funciones de la referencia de Arduino: &lt;a href=&quot;https://www.arduino.cc/reference/en/#functions&quot;&gt;https://www.arduino.cc/reference/en/#functions&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
@@ -2775,7 +2775,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1008"></int>
+                        <int value="1098"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -2789,7 +2789,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="10_114_2.26"></unicode>
+                      <unicode value="10_114_2.28"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="48">
                        <dictionary>
@@ -2800,7 +2800,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto01.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto01.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto01.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="326d73954c28b820f23ff018d8f210a7"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2829,7 +2829,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="27"></int>
+                 <int value="29"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="45"></reference>
                 </dictionary>
@@ -2924,7 +2924,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto01.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto01.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto01.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="a2d25318a37012cb0d46d3e6790a79fd"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3329,7 +3329,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="995"></int>
+                        <int value="1085"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -3343,7 +3343,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="116_114_2.29"></unicode>
+                      <unicode value="116_114_2.31"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="58">
                        <dictionary>
@@ -3354,7 +3354,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto02.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto02.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto02.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="7e789b84df1e06aa0b9581af84c574b1"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3383,7 +3383,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="30"></int>
+                 <int value="32"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="55"></reference>
                 </dictionary>
@@ -3478,7 +3478,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto02.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto02.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto02.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="11a6bb5e2f43866754d897ec37e87198"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3821,7 +3821,7 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;15:00&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;El reto consiste en realizar una secuencia de encendidos y pagados de leds, encendiéndose primero el azul (pin 13), permaneciendo encendido durante 200 ms, se apaga permaneciendo apagado 200 ms, después hace la misma secuencia el rojo. Este proceso sólo lo hará el sistema 5 veces. El tiempo de encendido y apagado lo tomaremos de una variable entera. &lt;/p&gt;
+                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;15:00&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;El reto consiste en realizar una secuencia de encendidos y apagados de leds, encendiéndose primero el azul (pin 13), permaneciendo encendido durante 200 ms, se apaga permaneciendo apagado 200 ms, después hace la misma secuencia el rojo. Este proceso sólo lo hará el sistema 5 veces. El tiempo de encendido y apagado lo tomaremos de una variable entera. &lt;/p&gt;
 &lt;p&gt;Objetivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Familiarizarse con el entorno de programación.&lt;/li&gt;
@@ -3848,7 +3848,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="997"></int>
+                        <int value="1087"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -3862,7 +3862,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="122_114_2.32"></unicode>
+                      <unicode value="122_114_2.34"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="68">
                        <dictionary>
@@ -3873,7 +3873,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto03_.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto03_.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto03_.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="49432da2c67e71999e51fa80cc4e4358"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3902,7 +3902,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="33"></int>
+                 <int value="35"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="65"></reference>
                 </dictionary>
@@ -3997,7 +3997,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto03.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto03.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto03.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="93d51908a816c43082180fe545a48f23"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4496,7 +4496,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="993"></int>
+                        <int value="1083"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -4510,7 +4510,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="125_114_2.32"></unicode>
+                      <unicode value="125_114_2.34"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="80">
                        <dictionary>
@@ -4521,7 +4521,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto04.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto04.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto04.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="2e76da25b13d6c078bd5d6a797ec3fd5"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4550,7 +4550,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="33"></int>
+                 <int value="35"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="75"></reference>
                 </dictionary>
@@ -4645,7 +4645,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto04.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto04.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto04.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="29749d9acac4a459e1789653e4813101"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4858,7 +4858,7 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Para hacer sonar un piezoeléctrico pasivo (como el de TDR-STeam) la mejor forma es con la orden Tone de Arduino:&lt;/p&gt;
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Para hacer sonar un piezoeléctrico pasivo (como el de TDR-STeam) la mejor forma es hacerlo con la orden &lt;em&gt;Tone&lt;/em&gt; de Arduino:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tone (pin, frecuencia en Hz);&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tone (pin, frecuencia en Hz, duracion en ms);&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Ejemplo de nota do:&lt;/p&gt;
@@ -5014,7 +5014,7 @@
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;15&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Con el piezo eléctrico de nuestra TDR-Steam (pin digital 8) debemos dar una señal sonora de alarma de socorro en código morse (pitidos largos/cortos) especificando una palabra, en nuestro caso SOS. la letra S en morse son tres pitidos de corta duración y la O tres pitidos de larga duración. También se puede hacer con señales luminosas y un led.&lt;/p&gt;
 &lt;p&gt;Los pitidos cortos tendrán una duración de 100 ms y los largos 300 ms. Entre letra y letra debe pasar un tiempo de 300 ms y entre SOS (entre palabras) debe haber un tiempo de 1000 ms.&lt;/p&gt;
-&lt;p&gt;Nota: Debes usar variables para guardar los tiempos que vas a usar y usar una función por cada letra.&lt;/p&gt;
+&lt;p&gt;Nota: Debes usar variables para guardar los tiempos y utilizar una función por cada letra.&lt;/p&gt;
 &lt;p&gt;Objetivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Repaso a bucle for.&lt;/li&gt;
@@ -5042,7 +5042,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="990"></int>
+                        <int value="1080"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -5056,7 +5056,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="22_127_2.21"></unicode>
+                      <unicode value="22_127_2.23"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="90">
                        <dictionary>
@@ -5067,7 +5067,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto05.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto05.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto05.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="dd8dbba3153bfec68b5dc4edd6358565"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5096,7 +5096,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="22"></int>
+                 <int value="24"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="87"></reference>
                 </dictionary>
@@ -5191,7 +5191,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto05.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto05.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto05.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="f0d14592ff92f047c48b24dfb6e28a54"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5431,7 +5431,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="985"></int>
+                        <int value="1075"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -5445,7 +5445,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="25_130_2.21"></unicode>
+                      <unicode value="25_130_2.23"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="98">
                        <dictionary>
@@ -5456,7 +5456,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto06.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto06.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto06.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="e9998157e3f4fc449c2cd5196d6c6dc2"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5485,7 +5485,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="22"></int>
+                 <int value="24"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="97"></reference>
                 </dictionary>
@@ -5580,7 +5580,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto06.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto06.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto06.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="340028a8a230b4f353296e41890ce4fd"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5796,7 +5796,7 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Como ya sabemos los pines digitales se pueden utilizar como salidas (actuadores) y como entradas (sensores). En la TDR-Steam tenemos dos pulsadores conectados a los pines digitales 2 (SW1) y 7 (SW2). Estos dispositivos darán en su lectura si están pulsados (HIGH) y si no lo están (LOW). Al ser digitales sólo disponen de dos estados.&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Como ya sabemos los pines digitales se pueden utilizar como salidas (conectando actuadores) y como entradas (conectando sensores). En la TDR-Steam tenemos dos pulsadores conectados a los pines digitales 2 (SW1) y 7 (SW2). Estos dispositivos darán en su lectura si están pulsados HIGH y si no lo están LOW. Al ser digitales sólo disponen de dos estados en sus lecturas.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/arduino_uno_digitales.png&quot; alt=&quot;entradas digitales arduino uno&quot; width=&quot;477&quot; height=&quot;338&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;En el shield TDR-Steam tenemos conectadas las siguientes entradas digitales:&lt;img src=&quot;resources/tdr-steam.png&quot; alt=&quot;TDR-Steam&quot; style=&quot;float: right; margin-right: 2px; margin-left: 2px;&quot; width=&quot;469&quot; height=&quot;358&quot; /&gt;&lt;/p&gt;
 &lt;table style=&quot;width: 32.2623%; height: 372px;&quot; border=&quot;1&quot;&gt;
@@ -5842,7 +5842,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1001"></int>
+                     <int value="1091"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -5856,7 +5856,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="166_112_2.61"></unicode>
+                   <unicode value="166_112_2.65"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="106">
                     <dictionary>
@@ -5867,7 +5867,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduino_uno_digitales.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/arduino_uno_digitales.png"></string>
+                     <string value="/tmp/tmp2J28wn/arduino_uno_digitales.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="61032a69ddddc7ef3ced0d7ca24f630e"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5894,7 +5894,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1005"></int>
+                     <int value="1095"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -5908,7 +5908,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="166_112_2.62"></unicode>
+                   <unicode value="166_112_2.66"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="107">
                     <dictionary>
@@ -5919,7 +5919,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="tdr-steam.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/tdr-steam.png"></string>
+                     <string value="/tmp/tmp2J28wn/tdr-steam.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="968250d4f1c532bb780d56c57e036f89"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5948,7 +5948,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="63"></int>
+              <int value="67"></int>
               <string role="key" value="parentNode"></string>
               <reference key="105"></reference>
              </dictionary>
@@ -6057,7 +6057,7 @@
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las instrucciones principales relacionadas con las entradas digitales son:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;pinMode (pin,INPUT)&lt;/span&gt;: Sirve para configurar un pin digital como de entrada (sensor). Ejemplo &lt;code&gt;pinMode (2,INPUT)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;pinMode (pin,INPUT)&lt;/span&gt;: Sirve para configurar un pin digital como de entrada (para conectar sensores). Ejemplo &lt;code&gt;pinMode (2,INPUT)&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;digitalRead (pin)&lt;/span&gt;: Sirve para leer el estado de un sensor digital (pulsador, interruptor), obteniendo de su lectura HIGH (activado) o LOW (desactivado). Ejemplo &lt;code&gt;digitalRead (2)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Para más información consultar la web de referencia de arduino en su apartado de funciones: &lt;a href=&quot;https://www.arduino.cc/reference/en/#functions&quot;&gt;https://www.arduino.cc/reference/en/#functions&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
@@ -6210,7 +6210,7 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las estructuras condicionales sirven para tomar decisiones en el hilo de desarrollo de un programa. El programas tomará decisiones en función del cumplimiento o no de condiciones.&lt;/p&gt;
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las estructuras condicionales sirven para tomar decisiones en el hilo de desarrollo de un programa. El programa tomará decisiones en función del cumplimiento o no de condiciones.&lt;/p&gt;
 &lt;p&gt;Sus estructuras son :&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Condicional simple&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;if (condición) {&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
@@ -6375,7 +6375,7 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;30&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;El reto consiste en que cuando pulse el pulsador SW1 (entrada digital 2), se encienda la secuencia de leds que hemos usado en ejercicios anteriores. Secuencia de encendidos y pagados de leds, encendiéndose primero el azul (pin 13), permaneciendo encendido durante 200 ms, se apaga permaneciendo apagado 200 ms, después hace la misma secuencia el rojo. Este proceso sólo lo hará el sistema 5 veces. El tiempo de encendido y apagado lo tomaremos de una variable entera. Esta secuencia de leds debe estar en una función.&lt;/p&gt;
+                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;30&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;El reto consiste en que cuando pulse el pulsador SW1 (entrada digital 2) se encienda la secuencia de leds que hemos usado en ejercicios anteriores. Dichas secuencia de encendidos y apagados de leds, era encendiéndose primero el azul (pin 13), permaneciendo encendido durante 200 ms, se apaga permaneciendo apagado 200 ms, después hace la misma secuencia el rojo. Este proceso sólo lo hará el sistema 5 veces. El tiempo de encendido y apagado lo tomaremos de una variable entera. La secuencia de leds debe estar en una función.&lt;/p&gt;
 &lt;p&gt;Objetivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Expresiones condicionales (if)&lt;/li&gt;
@@ -6404,7 +6404,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1022"></int>
+                        <int value="1112"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -6418,7 +6418,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="30_170_2.15"></unicode>
+                      <unicode value="30_170_2.17"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="115">
                        <dictionary>
@@ -6429,7 +6429,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto07.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto07.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto07.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="5c8821b898e25182dce88c144e2f8e23"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6458,7 +6458,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="16"></int>
+                 <int value="18"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="112"></reference>
                 </dictionary>
@@ -6553,7 +6553,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto07.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto07.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto07.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="0b83eb4a61d955c36d4a75c9a6066b70"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6766,7 +6766,7 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;15&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;El reto se trata de encender el led azul (pin digital 13) cuando se pulsa el pulsador pulsador SW1 (pin digital 2), y apagarlo cuando se pulse el SW2 (pin digital 3) de la TDR-Steam.&lt;/p&gt;
+                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;15&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;El reto se trata de encender el led azul (pin digital 13) cuando se pulsa el pulsador pulsador SW1 (pin digital 2), y apagarlo cuando se pulse el SW2 (pin digital 7) de la TDR-Steam.&lt;/p&gt;
 &lt;p&gt;Objetivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Repaso a entradas digitales.&lt;/li&gt;
@@ -6793,7 +6793,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="999"></int>
+                        <int value="1089"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -6807,7 +6807,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="33_169_2.15"></unicode>
+                      <unicode value="33_169_2.17"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="123">
                        <dictionary>
@@ -6818,7 +6818,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto08.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto08.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto08.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="895474fe40229b7bc23963e2f92c5054"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6847,7 +6847,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="16"></int>
+                 <int value="18"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="122"></reference>
                 </dictionary>
@@ -6942,7 +6942,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto08.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto08.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto08.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="9a95fe540af36b113c1daa6995007839"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7331,7 +7331,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1016"></int>
+                        <int value="1106"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -7345,7 +7345,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="35_171_2.14"></unicode>
+                      <unicode value="35_171_2.16"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="133">
                        <dictionary>
@@ -7356,7 +7356,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto09a.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto09a.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto09a.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="4fee1fe7596e8e7773825c2ccca4340b"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7385,7 +7385,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="15"></int>
+                 <int value="17"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="130"></reference>
                 </dictionary>
@@ -7519,7 +7519,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="988"></int>
+                        <int value="1078"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -7533,7 +7533,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="36_172_2.13"></unicode>
+                      <unicode value="36_172_2.15"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="136">
                        <dictionary>
@@ -7544,7 +7544,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto09b.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto09b.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto09b.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="4f4ddcd0c634fa583c2eff095262c8f4"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7573,7 +7573,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="14"></int>
+                 <int value="16"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="130"></reference>
                 </dictionary>
@@ -7668,7 +7668,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto09a.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto09a.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto09a.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="2c21b041a46d763f89cee5da5359589a"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7726,7 +7726,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto09b.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto09b.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto09b.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="89d08e92b4b009769f6ccb143d14dd49"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7943,7 +7943,7 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;En arduino UNO tenemos una serie de pines digitales (3, 5, 6, 9, 10, y 11), que cuando se usan como salidas pueden tener modulación de ancho de pulso (PWM). La modulación de ancho de pulso, o&lt;img src=&quot;resources/Pwm_5steps.gif&quot; alt=&quot;pwm&quot; width=&quot;326&quot; height=&quot;357&quot; style=&quot;float: right; margin: 8px;&quot; /&gt; PWM, sirve para obtener resultados analógicos con medios digitales. Las salidas digitales se utilizan para crear una onda cuadrada, una señal que se activa y desactiva con una frecuencia en el tiempo. En función del porcentaje de tiempo que está señal está a HIGH (5V) frente a LOW (0V) obtendremos una tensión en la salida entre 0 y 5 Voltios. Este porcentaje de tiempo se da pasando un valor comprendido entre 0 (0% por ciento del tiempo encendido) y 255 (100% del tiempo encendido). En el gráfico de la derecha se muestra un ejemplo, si damos la orden analogWrite (pin,0) estaría el 0% del tiempo a 5V y por tanto estaría siempre apagado, en el segundo caso dando la orden analogWrite (pin,64) estaría el 25% del tiempo a 5V y por tanto mostraría la salida un valor de tensión media baja (5V/4), con la orden analogWrite (pin,127) estaría el 50% del tiempo a 5V y por tanto mostraría la salida un valor de tensión media (5V/2), y así hasta la orden analogWrite (pin,255) que estaría el 100% del tiempo a 5V.&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;En arduino UNO tenemos una serie de pines digitales (3, 5, 6, 9, 10, y 11), que cuando se usan como salidas pueden tener modulación de ancho de pulso (PWM). La modulación de ancho de pulso, o&lt;img src=&quot;resources/Pwm_5steps.gif&quot; alt=&quot;pwm&quot; width=&quot;326&quot; height=&quot;357&quot; style=&quot;float: right; margin: 8px;&quot; /&gt; PWM, sirve para obtener resultados analógicos con medios digitales. Las salidas digitales se utilizan para crear una onda cuadrada, una señal que se activa y desactiva con una frecuencia en el tiempo. En función del porcentaje de tiempo que está señal está a HIGH (5V) frente a LOW (0V) obtendremos una tensión en la salida entre 0 y 5 Voltios. Este porcentaje de tiempo se da pasando un valor comprendido entre 0 (0% por ciento del tiempo encendido) y 255 (100% del tiempo encendido). En el gráfico de la derecha se muestra un ejemplo, si damos la orden &lt;em&gt;analogWrite (pin,0)&lt;/em&gt; estaría el 0% del tiempo a 5V y por tanto estaría siempre apagado, en el segundo caso dando la orden &lt;em&gt;analogWrite (pin,64)&lt;/em&gt; estaría el 25% del tiempo a 5V y por tanto mostraría la salida un valor de tensión media baja (5V/4), con la orden &lt;em&gt;analogWrite (pin,127)&lt;/em&gt; estaría el 50% del tiempo a 5V y por tanto mostraría la salida un valor de tensión media (5V/2), y así hasta la orden &lt;em&gt;analogWrite (pin,255)&lt;/em&gt; que estaría el 100% del tiempo a 5V.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/arduino_uno_salidas_pwm.png&quot; alt=&quot;arduino uno pwm&quot; width=&quot;381&quot; height=&quot;270&quot; /&gt;&lt;/p&gt;
 &lt;p&gt; En el shield TDR-Steam tenemos conectadas las siguientes salidas PWM:&lt;img src=&quot;resources/tdr-steam.png&quot; alt=&quot;tdr-steam&quot; width=&quot;416&quot; height=&quot;318&quot; style=&quot;margin-right: 4px; margin-left: 4px; float: right;&quot; /&gt;&lt;/p&gt;
 &lt;table border=&quot;1&quot; style=&quot;width: 27.9684%; height: 56px;&quot;&gt;
@@ -7985,7 +7985,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1006"></int>
+                     <int value="1096"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -7999,7 +7999,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="38_169_2.43"></unicode>
+                   <unicode value="38_169_2.49"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="146">
                     <dictionary>
@@ -8010,7 +8010,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="tdr-steam.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/tdr-steam.png"></string>
+                     <string value="/tmp/tmp2J28wn/tdr-steam.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="968250d4f1c532bb780d56c57e036f89"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8037,7 +8037,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1020"></int>
+                     <int value="1110"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -8051,7 +8051,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="38_169_2.44"></unicode>
+                   <unicode value="38_169_2.50"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="147">
                     <dictionary>
@@ -8062,7 +8062,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduino_uno_salidas_pwm.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/arduino_uno_salidas_pwm.png"></string>
+                     <string value="/tmp/tmp2J28wn/arduino_uno_salidas_pwm.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="c9944eac092f2a71cc0f9bb198aa3f47"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8089,7 +8089,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1021"></int>
+                     <int value="1111"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -8103,7 +8103,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="38_169_2.45"></unicode>
+                   <unicode value="38_169_2.51"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="148">
                     <dictionary>
@@ -8114,7 +8114,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="Pwm_5steps.gif"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/Pwm_5steps.gif"></string>
+                     <string value="/tmp/tmp2J28wn/Pwm_5steps.gif"></string>
                      <string role="key" value="checksum"></string>
                      <string value="54ef6da144b4531dd9ada686a7e67c56"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8143,7 +8143,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="46"></int>
+              <int value="52"></int>
               <string role="key" value="parentNode"></string>
               <reference key="145"></reference>
              </dictionary>
@@ -8426,7 +8426,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1023"></int>
+                        <int value="1113"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -8440,7 +8440,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="40_168_2.13"></unicode>
+                      <unicode value="40_168_2.15"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="154">
                        <dictionary>
@@ -8451,7 +8451,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="led_rgb.svg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/led_rgb.svg"></string>
+                        <string value="/tmp/tmp2J28wn/led_rgb.svg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="8173f74ab1c480bf367849cd8009cb0e"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8480,7 +8480,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="14"></int>
+                 <int value="16"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="153"></reference>
                 </dictionary>
@@ -8613,7 +8613,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="986"></int>
+                        <int value="1076"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -8627,7 +8627,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="41_169_2.13"></unicode>
+                      <unicode value="41_169_2.15"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="157">
                        <dictionary>
@@ -8638,7 +8638,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="ret10.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/ret10.png"></string>
+                        <string value="/tmp/tmp2J28wn/ret10.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="0f10f737ca87de76b90b30e1cf237274"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8667,7 +8667,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="14"></int>
+                 <int value="16"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="153"></reference>
                 </dictionary>
@@ -8762,7 +8762,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto10.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto10.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto10.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="b1420261becc1a36b2875e6ae2077308"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8980,7 +8980,6 @@
 &lt;ul&gt;
 &lt;li&gt;Repaso de entradas digitales.&lt;/li&gt;
 &lt;li&gt;Repaso de condicionales.&lt;/li&gt;
-&lt;li&gt;Repaso de entradas digitales.&lt;/li&gt;
 &lt;li&gt;Repaso de salidas analógicas (PWM).&lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Mostrar retroalimentación&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/bwOnkwHDREY&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;Código:&lt;/p&gt;
@@ -9004,7 +9003,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1019"></int>
+                        <int value="1109"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -9018,7 +9017,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="74_184_2.6"></unicode>
+                      <unicode value="74_184_2.8"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="165">
                        <dictionary>
@@ -9029,7 +9028,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto11.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto11.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto11.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="3a1cede831422a42e38cecf37c70ad79"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9058,7 +9057,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="7"></int>
+                 <int value="9"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="164"></reference>
                 </dictionary>
@@ -9153,7 +9152,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto11.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto11.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto11.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="836e254851606cd93149653d93049334"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9366,7 +9365,7 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las instrucciones principales relacionadas con numeros aleatorios es:&lt;/p&gt;
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las instrucciones principales relacionadas con numeros aleatorios son:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;random (valor_maximo)&lt;/span&gt;: Nos devuelve un entero aleatorio entre 0 y el valor máximo. Ejemplo &lt;code&gt;random (255)&lt;/code&gt;;&lt;/li&gt;
 &lt;li&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;random (valor_minimo, valor_maximo)&lt;/span&gt;: Nos devuelve un entero aleatorio entre el valor mínimo y el valor máximo. Ejemplo &lt;code&gt;random (1000,2000)&lt;/code&gt;;&lt;/li&gt;
@@ -9525,7 +9524,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1014"></int>
+                        <int value="1104"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -9539,7 +9538,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="43_169_2.14"></unicode>
+                      <unicode value="43_169_2.16"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="175">
                        <dictionary>
@@ -9550,7 +9549,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto12.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto12.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto12.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="dd1fdd5c18fa4b4ba9a1dba3a35049aa"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9579,7 +9578,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="15"></int>
+                 <int value="17"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="172"></reference>
                 </dictionary>
@@ -9674,7 +9673,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto12.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto12.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto12.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="6546861d1b79c11767f07d0006ce037f"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9890,7 +9889,7 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;En arduino UNO hay una serie de pines que son entradas analógicas (A0, A1, A2, A3, A4, A5 y A6), esto quiere decir que miden magnitudes que pueden tener infinitos valores, como temperatura (sensor NTC), luz (sensor LDR), posición (potenciómetro), etc. Como no podemos adjudicar en Arduino a una variable infinitos valores lo hace entre valores entre 0 y 1023 (1024 valores, almacenados en 10 bits).&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;En arduino UNO hay una serie de pines que son entradas analógicas (A0, A1, A2, A3, A4, y A5), esto quiere decir que miden magnitudes que pueden tener infinitos valores, como temperatura (sensor NTC), luz (sensor LDR), posición (potenciómetro), etc. Como no podemos adjudicar en Arduino a una variable infinitos valores lo hace entre valores entre 0 y 1023 (1024 valores, almacenados en 10 bits).&lt;/p&gt;
 &lt;p&gt; En el shield TDR-Steam tenemos conectadas las siguientes salidas PWM:&lt;img src=&quot;resources/tdr-steam.png&quot; alt=&quot;tdr-steam&quot; width=&quot;465&quot; height=&quot;355&quot; style=&quot;float: right;&quot; /&gt;&lt;/p&gt;
 &lt;table border=&quot;1&quot; style=&quot;width: 24.5333%; height: 68px;&quot;&gt;
 &lt;tbody&gt;
@@ -9949,7 +9948,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="1007"></int>
+                     <int value="1097"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -9963,7 +9962,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="44_170_2.15"></unicode>
+                   <unicode value="44_170_2.17"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="183">
                     <dictionary>
@@ -9974,7 +9973,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="tdr-steam.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpZ2mNnU/tdr-steam.png"></string>
+                     <string value="/tmp/tmp2J28wn/tdr-steam.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="968250d4f1c532bb780d56c57e036f89"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10003,7 +10002,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="16"></int>
+              <int value="18"></int>
               <string role="key" value="parentNode"></string>
               <reference key="182"></reference>
              </dictionary>
@@ -10110,7 +10109,7 @@
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las instrucciones principales relacionadas con las entradas analógicas son :&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;analogRead (pin)&lt;/span&gt;: Realiza una lectura del pin analógico correspondiente, aroojando un valor entre 0 (0 voltios) y 1023 (5V). Ejemplo &lt;code&gt;analogRead (A0)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;analogRead (pin)&lt;/span&gt;: Realiza una lectura del pin analógico correspondiente, arrojando un valor entre 0 (0 voltios) y 1023 (5V). Ejemplo &lt;code&gt;analogRead (A0)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Para más información consultar la web de referencia de Arduino en su apartado funciones: &lt;a href=&quot;https://www.arduino.cc/reference/en/#functions&quot;&gt;https://www.arduino.cc/reference/en/#functions&lt;/a&gt;&lt;code&gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -10289,7 +10288,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="994"></int>
+                        <int value="1084"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -10303,7 +10302,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="45_168_2.11"></unicode>
+                      <unicode value="45_168_2.13"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="189">
                        <dictionary>
@@ -10314,7 +10313,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="icono_monitor_serie.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/icono_monitor_serie.png"></string>
+                        <string value="/tmp/tmp2J28wn/icono_monitor_serie.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="ad4a2e14322d1b08e4df2cfa67d113b7"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10343,7 +10342,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="12"></int>
+                 <int value="14"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="188"></reference>
                 </dictionary>
@@ -10479,7 +10478,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="992"></int>
+                        <int value="1082"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -10493,7 +10492,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="47_170_2.11"></unicode>
+                      <unicode value="47_170_2.13"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="192">
                        <dictionary>
@@ -10504,7 +10503,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto13.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto13.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto13.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="96840658732172f2e69968808bb1c03d"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10533,7 +10532,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="12"></int>
+                 <int value="14"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="188"></reference>
                 </dictionary>
@@ -10628,7 +10627,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto13.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto13.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto13.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="f29fdd48d4daab85255fada76530175b"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10841,7 +10840,7 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;30&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Se trata de encender el led RGB (pines 6,9,10) más o menos en función de la cantidad de luz que incida en la LDR. A mayor cantidad de luz en la LDR menos tiene que lucir el LED RGB, y viceversa. Todo ello tiene que ser de forma progresiva.&lt;/p&gt;
+                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;30&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Se trata de encender el led RGB (pines 6,9,10) más o menos en función de la cantidad de luz que incida en la LDR (A1). A mayor cantidad de luz en la LDR menos tiene que lucir el LED RGB, y viceversa. Todo ello tiene que ser de forma progresiva.&lt;/p&gt;
 &lt;p&gt;Objetivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Función map.&lt;/li&gt;
@@ -10871,7 +10870,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="989"></int>
+                        <int value="1079"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -10885,7 +10884,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="48_168_2.11"></unicode>
+                      <unicode value="48_168_2.13"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="200">
                        <dictionary>
@@ -10896,7 +10895,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto14.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto14.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto14.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="10c1f3c377e7d36e6cfa887c9eb5ca4c"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10925,7 +10924,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="12"></int>
+                 <int value="14"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="199"></reference>
                 </dictionary>
@@ -11020,7 +11019,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto14.1.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto14.1.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto14.1.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="0ffd13e2333dfa90fb6a75ed19f5f0c1"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11233,7 +11232,7 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;30&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;El reto consiste en encender el led rojo (salida digital 12) o azul (salida digital 13) en función de la posición del potenciómetro (entrada analógica 0). De la mitad hacia la izquierda de la posición del cursor del potenciómetro encenderá un led y de la mitad a la derecha el otro. Además mostrará en el monitor serie el valor de lectura analógica del potenciómetro.&lt;/p&gt;
+                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;30&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;El reto consiste en encender el led rojo (salida digital 12) o azul (salida digital 13) en función de la posición del potenciómetro (entrada analógica 0, A0). De la mitad hacia la izquierda de la posición del cursor del potenciómetro encenderá un led y de la mitad a la derecha el otro. Además mostrará en el monitor serie el valor de lectura analógica del potenciómetro.&lt;/p&gt;
 &lt;p&gt;Objetivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Repaso comunicaciones serie.&lt;/li&gt;
@@ -11260,7 +11259,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1012"></int>
+                        <int value="1102"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -11274,7 +11273,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="49_169_2.10"></unicode>
+                      <unicode value="49_169_2.12"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="208">
                        <dictionary>
@@ -11285,7 +11284,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto15.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto15.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto15.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="cc51952917dd1ba5ebde7ad5aad17ef4"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11314,7 +11313,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="11"></int>
+                 <int value="13"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="207"></reference>
                 </dictionary>
@@ -11409,7 +11408,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto15.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto15.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto15.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="c096bfcf0ee0247b66b34dc3f371dffd"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11652,7 +11651,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="998"></int>
+                        <int value="1088"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -11666,7 +11665,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="50_168_2.9"></unicode>
+                      <unicode value="50_168_2.11"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="216">
                        <dictionary>
@@ -11677,7 +11676,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto16.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto16.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto16.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="07158194d9a2cd3e77cfa29ff277f48f"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11706,7 +11705,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="10"></int>
+                 <int value="12"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="215"></reference>
                 </dictionary>
@@ -11801,7 +11800,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto14.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto14.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto14.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="7b206345214d3b8e994675c19e895cb5"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12017,7 +12016,7 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Una librería es un conjunto de instrucciones que se han programado para facilitar la programación y control de un sensor o actuador. Vamos a necesitar librerías para elementos como la pantalla LCD, sensor de humedad y temperatura DHT11.&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Una librería es un conjunto de instrucciones que se han programado para facilitar la programación y control de un sensor o actuador. Vamos a necesitar librerías para elementos como la pantalla LCD y el sensor de humedad y temperatura DHT11.&lt;/p&gt;
 &lt;p&gt;Las librerías que vamos a utilizar las ha recopilado &lt;em&gt;Juanjo López&lt;/em&gt; creador de Arduinoblocks en este sitio: &lt;a href=&quot;http://www.arduinoblocks.com/web/help/libraries&quot;&gt;http://www.arduinoblocks.com/web/help/libraries&lt;/a&gt;. Las descargaremos y descomprimiremos en la carpeta Tu_usuario/Arduino/libraries.&lt;/p&gt;
 &lt;p&gt;&lt;iframe width=&quot;1250&quot; height=&quot;703&quot; src=&quot;https://www.youtube.com/embed/2VOyOcVKb30&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -12169,7 +12168,7 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;30&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Se trata de un control de turno para ello tenemos dos pulsadores SW1 (entrada digital 2) y SW2 (entrada digital 7) y una pantalla LCD 16x2 (16 columnas y 2 filas) para mostrar el turno actual. Si se pulsa el pulsador SW1 el turno avanza en uno, si se pulsa el pulsador SW2 el turno retrocede en uno. EL turno no puede ser un número negativo.&lt;/p&gt;
+                 <unicode content="true" value="&lt;dl class=&quot;pbl-task-info&quot;&gt;&lt;dt class=&quot;pbl-task-duration&quot;&gt;&lt;span&gt;Duración:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-duration&quot;&gt;30&lt;/dd&gt;&lt;dt class=&quot;pbl-task-participants&quot;&gt;&lt;span&gt;Agrupamiento:&lt;/span&gt;&lt;/dt&gt;&lt;dd class=&quot;pbl-task-participants&quot;&gt;1&lt;/dd&gt;&lt;/dl&gt;&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Se trata de un control de turno, para ello tenemos dos pulsadores SW1 (entrada digital 2) y SW2 (entrada digital 7) y una pantalla LCD 16x2 (16 columnas y 2 filas) para mostrar el turno actual. Si se pulsa el pulsador SW1 el turno avanza en uno, si se pulsa el pulsador SW2 el turno retrocede en uno. El turno no puede ser un número negativo.&lt;/p&gt;
 &lt;p&gt; Objetivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Inclusión y uso de librerías en programas.&lt;/li&gt;
@@ -12340,7 +12339,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto17.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto17.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto17.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="5cb625e761d8fcb2c07cd6a13852dc4b"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12553,10 +12552,10 @@
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;El LM35 es un sensor de Temperatura analógico, cada 10 milivoltios de la lectura son 1 ºCelsius. Las lecturas analógicas de Arduino pueden tener valores entre 0 y 1203 (1024 valores 10 bits para&lt;img src=&quot;resources/arduino-LM35-sensor.png&quot; alt=&quot;LM35&quot; width=&quot;400&quot; height=&quot;432&quot; style=&quot;float: right; margin-right: 4px; margin-left: 4px;&quot; /&gt; guardarlos). Lo que realmente hace Arduino cuando lee la entrada es convertir el valor en voltios de la lectura (de 0 a 5V) en un valor numérico entre 0 (0V) y 1023 (5V). En nuestra TDR-Steam el LM35 está conectado a la entrada analógica 2 (A2).&lt;/p&gt;
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;El LM35 es un sensor de temperatura analógico, cada 10 milivoltios de la lectura equivale a 1º Celsius. Las lecturas analógicas de Arduino pueden tener valores entre 0 y 1203 (1024 valores 10 bits&lt;img src=&quot;resources/LM35_imagen.png&quot; alt=&quot;LM35&quot; width=&quot;158&quot; height=&quot;400&quot; style=&quot;float: right; margin-right: 6px; margin-left: 6px;&quot; /&gt; para guardarlos). Lo que realmente hace Arduino cuando lee la entrada es convertir el valor en voltios de la lectura (de 0 a 5V) en un valor numérico entre 0 (0V) y 1023 (5V). En nuestra TDR-Steam el LM35 está conectado a la entrada analógica 2 (A2).&lt;/p&gt;
 &lt;p&gt;Por tanto el valor en milivoltios de la entrada es = (Valor entrada analógica/1023)*5*1000&lt;/p&gt;
 &lt;p&gt;El valor de Temperatura en ºC=milivoltios/10, cada 10 milivoltios es 1ºC.&lt;/p&gt;
-&lt;p&gt; &lt;img src=&quot;resources/arduino-LM35-esquema-electrico.png&quot; alt=&quot;LM35 esquema&quot; width=&quot;400&quot; height=&quot;489&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt; &lt;img src=&quot;resources/lm35_board.png&quot; alt=&quot;lm35 board&quot; width=&quot;649&quot; height=&quot;565&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -12576,7 +12575,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1011"></int>
+                        <int value="1117"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -12590,7 +12589,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="53_169_2.16"></unicode>
+                      <unicode value="53_169_2.23"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="234">
                        <dictionary>
@@ -12599,11 +12598,11 @@
                         <string role="key" value="_package"></string>
                         <reference key="2"></reference>
                         <string role="key" value="_storageName"></string>
-                        <string value="arduino-LM35-sensor.png"></string>
+                        <string value="LM35_imagen.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/arduino-LM35-sensor.png"></string>
+                        <string value="/tmp/tmpE92oQL.eXe/previews/allyourbase/LM35_imagen.png"></string>
                         <string role="key" value="checksum"></string>
-                        <string value="3d4c90d39963b12249b691835b3d7530"></string>
+                        <string value="82d7812183f557a2769196dd056506ae"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                         <int value="2"></int>
                         <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -12628,7 +12627,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1018"></int>
+                        <int value="1119"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -12642,7 +12641,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="53_169_2.17"></unicode>
+                      <unicode value="53_169_2.25"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="235">
                        <dictionary>
@@ -12651,11 +12650,11 @@
                         <string role="key" value="_package"></string>
                         <reference key="2"></reference>
                         <string role="key" value="_storageName"></string>
-                        <string value="arduino-LM35-esquema-electrico.png"></string>
+                        <string value="lm35_board.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/arduino-LM35-esquema-electrico.png"></string>
+                        <string value="/tmp/tmpE92oQL.eXe/previews/allyourbase/lm35_board.png"></string>
                         <string role="key" value="checksum"></string>
-                        <string value="9a042590dead376ee961a90e6f6553a8"></string>
+                        <string value="a54ac157cb91269e4d073e2266aa9168"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                         <int value="2"></int>
                         <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -12682,7 +12681,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="18"></int>
+                 <int value="26"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="233"></reference>
                 </dictionary>
@@ -12818,7 +12817,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="987"></int>
+                        <int value="1077"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -12832,7 +12831,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="54_170_2.9"></unicode>
+                      <unicode value="54_170_2.11"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="238">
                        <dictionary>
@@ -12843,7 +12842,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto18.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto18.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto18.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="c410bf57a78c0d8e58dbe358241d0e34"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12872,7 +12871,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="10"></int>
+                 <int value="12"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="233"></reference>
                 </dictionary>
@@ -12967,7 +12966,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto18.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/tmp/tmpZ2mNnU/reto18.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto18.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="150401b1f45a28e28f0d5c95510bca79"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -13188,7 +13187,7 @@
 &lt;li&gt;Medición de humedad entre 20 a 80%, con precisión del 5%&lt;/li&gt;
 &lt;li&gt;Frecuencia de muestreo de 1 muestras por segundo (1 Hz)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;resources/Sensore_DHT11_connesso_ad_Arduino.png&quot; alt=&quot;conexión dht11&quot; width=&quot;493&quot; height=&quot;309&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;img src=&quot;resources/dht11_board.png&quot; alt=&quot;dht11 board&quot; width=&quot;728&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -13208,7 +13207,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="984"></int>
+                        <int value="1074"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -13222,7 +13221,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="56_168_2.14"></unicode>
+                      <unicode value="56_168_2.18"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="246">
                        <dictionary>
@@ -13233,7 +13232,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="dht11.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/dht11.jpg"></string>
+                        <string value="/tmp/tmp2J28wn/dht11.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="1aa8200d2a97e684362a6253929fc503"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -13260,7 +13259,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1025"></int>
+                        <int value="1120"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -13274,7 +13273,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="56_168_2.15"></unicode>
+                      <unicode value="56_168_2.20"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="247">
                        <dictionary>
@@ -13283,11 +13282,11 @@
                         <string role="key" value="_package"></string>
                         <reference key="2"></reference>
                         <string role="key" value="_storageName"></string>
-                        <string value="Sensore_DHT11_connesso_ad_Arduino.png"></string>
+                        <string value="dht11_board.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/Sensore_DHT11_connesso_ad_Arduino.png"></string>
+                        <string value="/tmp/tmpE92oQL.eXe/previews/allyourbase/dht11_board.png"></string>
                         <string role="key" value="checksum"></string>
-                        <string value="d31176d582061bf8373f0d0541dc6f90"></string>
+                        <string value="64e85d5c4bd79b2b501e763f22cd007a"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                         <int value="2"></int>
                         <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -13314,7 +13313,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="16"></int>
+                 <int value="21"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="245"></reference>
                 </dictionary>
@@ -13448,7 +13447,7 @@
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="1013"></int>
+                        <int value="1103"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -13462,7 +13461,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="57_169_2.7"></unicode>
+                      <unicode value="57_169_2.9"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="250">
                        <dictionary>
@@ -13473,7 +13472,7 @@
                         <string role="key" value="_storageName"></string>
                         <string value="reto19.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="/tmp/tmpZ2mNnU/reto19.png"></string>
+                        <string value="/tmp/tmp2J28wn/reto19.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="4062f47da4b17f271cf77fccb21f2ded"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -13502,7 +13501,7 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="8"></int>
+                 <int value="10"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="245"></reference>
                 </dictionary>
@@ -13597,7 +13596,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto19.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/home/usuario/Descargas/arduino_tdr_steam/retos/reto19/reto19.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto19.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="68db9f57ef1a548638324d36c53d42bb"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -13988,7 +13987,7 @@
                    <string role="key" value="_storageName"></string>
                    <string value="reto20.ino"></string>
                    <string role="key" value="_userName"></string>
-                   <string value="/home/usuario/Descargas/arduino_tdr_steam/retos/reto20/reto20.ino"></string>
+                   <string value="/tmp/tmp2J28wn/reto20.ino"></string>
                    <string role="key" value="checksum"></string>
                    <string value="73ef7e53924cc04a0fbd469469a4deb6"></string>
                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -14205,6 +14204,7 @@
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;ul&gt;
+&lt;li&gt;Github Manuel Hidalgo (@leobotmanuel)&lt;/li&gt;
 &lt;li&gt;Librerías de Arduinoblocks (Juanjo López)&lt;/li&gt;
 &lt;li&gt;Entorno de programación Arduinoblocks (Juanjo López)&lt;/li&gt;
 &lt;li&gt;Web de Luis Llamas.&lt;/li&gt;
@@ -15615,10 +15615,6 @@
    <list>
     <reference key="165"></reference>
    </list>
-   <string role="key" value="3d4c90d39963b12249b691835b3d7530"></string>
-   <list>
-    <reference key="234"></reference>
-   </list>
    <string role="key" value="4062f47da4b17f271cf77fccb21f2ded"></string>
    <list>
     <reference key="250"></reference>
@@ -15660,6 +15656,10 @@
     <reference key="39"></reference>
     <reference key="106"></reference>
    </list>
+   <string role="key" value="64e85d5c4bd79b2b501e763f22cd007a"></string>
+   <list>
+    <reference key="247"></reference>
+   </list>
    <string role="key" value="6546861d1b79c11767f07d0006ce037f"></string>
    <list>
     <reference key="179"></reference>
@@ -15687,6 +15687,10 @@
    <string role="key" value="8173f74ab1c480bf367849cd8009cb0e"></string>
    <list>
     <reference key="154"></reference>
+   </list>
+   <string role="key" value="82d7812183f557a2769196dd056506ae"></string>
+   <list>
+    <reference key="234"></reference>
    </list>
    <string role="key" value="836e254851606cd93149653d93049334"></string>
    <list>
@@ -15725,10 +15729,6 @@
    <list>
     <reference key="192"></reference>
    </list>
-   <string role="key" value="9a042590dead376ee961a90e6f6553a8"></string>
-   <list>
-    <reference key="235"></reference>
-   </list>
    <string role="key" value="9a95fe540af36b113c1daa6995007839"></string>
    <list>
     <reference key="127"></reference>
@@ -15740,6 +15740,10 @@
    <string role="key" value="a35193d491712bd5390ee35431dfd0fb"></string>
    <list>
     <reference key="10"></reference>
+   </list>
+   <string role="key" value="a54ac157cb91269e4d073e2266aa9168"></string>
+   <list>
+    <reference key="235"></reference>
    </list>
    <string role="key" value="ac5031fc4f5779c081b2395297d264da"></string>
    <list>
@@ -15768,10 +15772,6 @@
    <string role="key" value="cc51952917dd1ba5ebde7ad5aad17ef4"></string>
    <list>
     <reference key="208"></reference>
-   </list>
-   <string role="key" value="d31176d582061bf8373f0d0541dc6f90"></string>
-   <list>
-    <reference key="247"></reference>
    </list>
    <string role="key" value="dd1fdd5c18fa4b4ba9a1dba3a35049aa"></string>
    <list>

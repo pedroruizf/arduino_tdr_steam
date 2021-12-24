@@ -80,7 +80,7 @@
 <article class="iDevice_wrapper textIdevice" id="id166">
 <div class="iDevice emphasis0" >
 <div id="ta166_112_2" class="block iDevice_content">
-<div class="exe-text"><p>Como ya sabemos los pines digitales se pueden utilizar como salidas (actuadores) y como entradas (sensores). En la TDR-Steam tenemos dos pulsadores conectados a los pines digitales 2 (SW1) y 7 (SW2). Estos dispositivos darán en su lectura si están pulsados (HIGH) y si no lo están (LOW). Al ser digitales sólo disponen de dos estados.</p>
+<div class="exe-text"><p>Como ya sabemos los pines digitales se pueden utilizar como salidas (conectando actuadores) y como entradas (conectando sensores). En la TDR-Steam tenemos dos pulsadores conectados a los pines digitales 2 (SW1) y 7 (SW2). Estos dispositivos darán en su lectura si están pulsados HIGH y si no lo están LOW. Al ser digitales sólo disponen de dos estados en sus lecturas.</p>
 <p><img src="arduino_uno_digitales.png" alt="entradas digitales arduino uno" width="477" height="338" /></p>
 <p>En el shield TDR-Steam tenemos conectadas las siguientes entradas digitales:<img src="tdr-steam.png" alt="TDR-Steam" style="float: right; margin-right: 2px; margin-left: 2px;" width="469" height="358" /></p>
 <table style="width: 32.2623%; height: 372px;" border="1">
@@ -118,7 +118,7 @@
 <div id="ta167_113_2" class="block iDevice_content">
 <div class="exe-text"><p>Las instrucciones principales relacionadas con las entradas digitales son:</p>
 <ul>
-<li><span style="text-decoration: underline;">pinMode (pin,INPUT)</span>: Sirve para configurar un pin digital como de entrada (sensor). Ejemplo <code>pinMode (2,INPUT)</code>.</li>
+<li><span style="text-decoration: underline;">pinMode (pin,INPUT)</span>: Sirve para configurar un pin digital como de entrada (para conectar sensores). Ejemplo <code>pinMode (2,INPUT)</code>.</li>
 <li><span style="text-decoration: underline;">digitalRead (pin)</span>: Sirve para leer el estado de un sensor digital (pulsador, interruptor), obteniendo de su lectura HIGH (activado) o LOW (desactivado). Ejemplo <code>digitalRead (2)</code></li>
 </ul>
 <p>Para más información consultar la web de referencia de arduino en su apartado de funciones: <a href="https://www.arduino.cc/reference/en/#functions">https://www.arduino.cc/reference/en/#functions</a></p></div>

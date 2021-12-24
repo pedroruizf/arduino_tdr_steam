@@ -81,7 +81,7 @@
 <div class="iDevice emphasis0" >
 <div id="ta8_112_2" class="block iDevice_content">
 <div class="exe-text"><p>Como ya sabemos los pines digitales van numerados del 0 al 13 y sólo puede tomar dos valores (1 o 0, encendido o apagado). Sirven para conectar tanto salidas (actuadores) digitales (diodos led, motores, zumbadores, etc), como entradas (sensores) digitales (interruptores, pulsadores, finales de carrera, etc).</p>
-<p>Estos pines cuando se usan como salidas podemos decirles que estén conectados (valor HIGH o 1) o no (valor LOW o 0),  que tengan corriente (5V) o no (0V). Cuando son de salida dan como máximo 5V y 40 mA.</p>
+<p>Estos pines cuando se usan como salidas podemos decirles que estén conectados (valor HIGH o 1) o no (valor LOW o 0),  que tengan voltaje (5V) o no (0V). Cuando son de salida dan como máximo 5V y 40 mA.</p>
 <p><img src="arduino_uno_digitales.png" alt="arduino uno pines digitales" width="498" height="353" /></p>
 <p>En el shield TDR-Steam tenemos conectadas las siguientes salidas digitales:<img src="tdr-steam.png" alt="TDR-Steam" style="float: right; margin-right: 2px; margin-left: 2px;" width="523" height="399" /></p>
 <table style="width: 32.2623%; height: 372px;" border="1">
@@ -130,7 +130,7 @@
 <div class="exe-text"><p>Las instrucciones principales relacionadas con las salidas digitales son:</p>
 <ul>
 <li><span style="text-decoration: underline;">pinMode (pin,OUTPUT)</span>: Sirve para configurar un pin digital como de salida (actuador). Ejemplo <code>pinMode (13,OUTPUT)</code>.</li>
-<li><span style="text-decoration: underline;">digitalWrite (pin,HIGH/LOW)</span>: Sirve para dar corriente o no a un pin digital, HIGH da 5V, LOW da 0V. Ejemplo <code>digitalWrite (13,HIGH)</code>.</li>
+<li><span style="text-decoration: underline;">digitalWrite (pin,HIGH/LOW)</span>: Sirve para dar voltaje o no a un pin digital, HIGH da 5V, LOW da 0V. Ejemplo <code>digitalWrite (13,HIGH)</code>.</li>
 <li><span style="text-decoration: underline;">delay (tiempo en ms)</span>: provoca una interrupción por un tiempo en ms del microcontrolador. Ejemplo <code>delay (500)</code>.</li>
 </ul>
 <p>Para más información consultar el apartado de funciones de la referencia de Arduino: <a href="https://www.arduino.cc/reference/en/#functions">https://www.arduino.cc/reference/en/#functions</a></p></div>
