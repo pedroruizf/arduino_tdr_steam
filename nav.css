@@ -60,78 +60,25 @@ body{padding:0;text-align:center}
 	body #content{background:#FFF}
 	#headerContent{white-space:normal;text-overflow:normal;font-weight:bold}
 }
-/* eXeLearning Style Designer */
-#content{
-/*contentBGColor*/
-background-color:#ffffee;
-/*contentBGURL*/
-background-image:url(robo-agua-letras.png);
-/*contentBGRepeat*/
-background-repeat:repeat;
-/*contentBGPosition*/
-background-position:0 0;
+/* eXeLearning Style Designer */#content{/*contentBGColor*/background-color:#ffffee;/*contentBGURL*/background-image:url(robo-agua-letras.png);/*contentBGRepeat*/background-repeat:repeat;/*contentBGPosition*/background-position:0 0;}
+#exe-client-search-text{/*searchBarBGColor*/background:#aad4ff;/*searchBarTextColor*/color:#000000;border-color:#56aaff;}
+#exe-client-search-submit{/*searchBarButtonBGColor*/background:#56aaff;border-color:#56aaff;}
+.pagination a,#nav-toggler a,#skipNav a{/*nav2BGColor*/background-color:#ff0000;/*nav2AColor*/color:#ffffff;}
+.pagination a:hover,.pagination a:focus,#nav-toggler a:hover{/*nav2HoverBGColor*/background-color:#bf0000;}
+body{/*bodyBGColor*/background-color:#ffffaa;}
+#topPagination .page-counter{color:#000000;}
+#siteNav,#siteNav a{/*navBGColor*/background-color:#ffd4aa;/*navAColor*/color:#555555;/*navBorderColor*/border-color:#bf5f00;}
+@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav,#siteNav ul{background-color:#ffd4aa;border-color:#bf5f00;}
+#siteNav li{background-color:#ffd4aa;}
 }
-#exe-client-search-text{
-/*searchBarBGColor*/
-background:#aad4ff;
-/*searchBarTextColor*/
-color:#000000;border-color:#56aaff;
+#siteNav a:hover,#siteNav a:focus,#siteNav a.active{/*navHoverBGColor*/background-color:#ff7f00;/*navAHoverColor*/color:#000000;}
+@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav li:hover,#siteNav li.sfhover{background-color:#ff7f00;}
 }
-#exe-client-search-submit{
-/*searchBarButtonBGColor*/
-background:#56aaff;border-color:#56aaff;
-}
-.pagination a,#nav-toggler a,#skipNav a{
-/*nav2BGColor*/
-background-color:#ff0000;
-/*nav2AColor*/
-color:#ffffff;
-}
-.pagination a:hover,.pagination a:focus,#nav-toggler a:hover{
-/*nav2HoverBGColor*/
-background-color:#bf0000;
-}
-body{
-/*bodyBGColor*/
-background-color:#ffffaa;
-}
-#topPagination .page-counter{
-color:#000000;
-}
-#siteNav,#siteNav a{
-/*navBGColor*/
-background-color:#ffd4aa;
-/*navAColor*/
-color:#555555;
-/*navBorderColor*/
-border-color:#bf5f00;
-}
-@media screen and (min-width: 701px) and (max-width: 1015px){
-#siteNav,#siteNav ul{
-background-color:#ffd4aa;border-color:#bf5f00;
-}
-#siteNav li{
-background-color:#ffd4aa;
-}
-}
-#siteNav a:hover,#siteNav a:focus,#siteNav a.active{
-/*navHoverBGColor*/
-background-color:#ff7f00;
-/*navAHoverColor*/
-color:#000000;
-}
-@media screen and (min-width: 701px) and (max-width: 1015px){
-#siteNav li:hover,#siteNav li.sfhover{
-background-color:#ff7f00;
-}
-}
-.pagination{
-border-color:#ff7f00;
-}
-#bottomPagination{
-background-color:#ffffed;
-}
+.pagination{border-color:#ff7f00;}
+#bottomPagination{background-color:#ffffed;}
 /* eXeLearning Style Designer (custom CSS) */
+
+
 
 
 
